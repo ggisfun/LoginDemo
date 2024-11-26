@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+    
+    <key>CFBundleURLTypes</key>
+    <array>
+        <!-- Facebook URL Scheme -->
+        <dict>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>fb1620252855594084</string>
+            </array>
+        </dict>
+        <!-- Google URL Scheme -->
+        <dict>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>com.googleusercontent.apps.195959176958-alc3lvuo8s66unjlnt8arg35f0n00p3e</string>
+            </array>
+        </dict>
+    </array>
+    
+    <!-- Facebook Configuration -->
+    <key>FacebookAppID</key>
+    <string>1620252855594084</string>
+    <key>FacebookClientToken</key>
+    <string>5bdad39848301b1f6cc307d057c5fbca</string>
+    <key>FacebookDisplayName</key>
+    <string>LoginDemo</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>fbapi</string>
+        <string>fb-messenger-share-api</string>
+    </array>
+    
+    <!-- Google Configuration -->
+    <key>GIDClientID</key>
+    <string>195959176958-alc3lvuo8s66unjlnt8arg35f0n00p3e.apps.googleusercontent.com</string>
+    
+</dict>
+</plist>
